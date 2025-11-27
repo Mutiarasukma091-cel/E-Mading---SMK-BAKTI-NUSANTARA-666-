@@ -1,0 +1,77 @@
+/* Brown Buttons - Semua button coklat */
+
+/* Override semua button menjadi coklat */
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-secondary {
+    background-color: #8B4513 !important;
+    border-color: #8B4513 !important;
+    color: white !important;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-info:hover,
+.btn-warning:hover,
+.btn-secondary:hover {
+    background-color: #654321 !important;
+    border-color: #654321 !important;
+    color: white !important;
+}
+
+/* Outline buttons */
+.btn-outline-primary,
+.btn-outline-success,
+.btn-outline-info,
+.btn-outline-warning,
+.btn-outline-secondary {
+    color: #8B4513 !important;
+    border-color: #8B4513 !important;
+    background-color: transparent !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-success:hover,
+.btn-outline-info:hover,
+.btn-outline-warning:hover,
+.btn-outline-secondary:hover {
+    background-color: #8B4513 !important;
+    border-color: #8B4513 !important;
+    color: white !important;
+}
+
+/* Khusus untuk dropdown button di navbar tetap berbeda warna */
+.navbar .btn-outline-danger {
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.navbar .btn-outline-danger:hover {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: white !important;
+}
+
+.navbar .btn-outline-success {
+    color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: white !important;
+}
+
+.navbar .btn-outline-primary {
+    color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.navbar .btn-outline-primary:hover {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    color: white !important;
+}

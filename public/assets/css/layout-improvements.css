@@ -1,0 +1,237 @@
+/* Layout Improvements - Keep Original Colors */
+
+/* Better spacing and alignment */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Consistent card spacing */
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Better button spacing */
+.btn {
+    margin-bottom: 0.5rem;
+}
+
+.btn + .btn {
+    margin-left: 0.5rem;
+}
+
+/* Form improvements */
+.form-control, .form-select {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* Table improvements */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Better article card layout */
+.article-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-card .card-text {
+    flex-grow: 1;
+}
+
+/* Consistent badge spacing */
+.badge {
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Better navigation spacing */
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.dropdown-menu {
+    margin-top: 0.5rem;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1rem;
+}
+
+/* Improved stats cards */
+.stats-card {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.stats-card i {
+    margin-bottom: 1rem;
+}
+
+.stats-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+/* Better modal spacing */
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-footer {
+    padding: 1rem 1.5rem;
+}
+
+/* Consistent alert spacing */
+.alert {
+    margin-bottom: 1.5rem;
+}
+
+/* Better breadcrumb */
+.breadcrumb {
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Improved pagination */
+.pagination {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.page-link {
+    padding: 0.5rem 0.75rem;
+}
+
+/* Better responsive spacing */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .btn {
+        margin-bottom: 0.75rem;
+    }
+    
+    .stats-card {
+        padding: 1.5rem 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Text alignment improvements */
+.text-center {
+    text-align: center !important;
+}
+
+.text-start {
+    text-align: left !important;
+}
+
+.text-end {
+    text-align: right !important;
+}
+
+/* Better flex utilities */
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+/* Consistent gap spacing */
+.gap-1 { gap: 0.25rem !important; }
+.gap-2 { gap: 0.5rem !important; }
+.gap-3 { gap: 1rem !important; }
+.gap-4 { gap: 1.5rem !important; }
+
+/* Better row spacing */
+.row {
+    margin-bottom: 1rem;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+/* Improved column spacing */
+.col, .col-md-4, .col-lg-4, .col-lg-8 {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .col-md-4, .col-lg-4, .col-lg-8 {
+        margin-bottom: 0;
+    }
+}
+
+/* Better list spacing */
+ul, ol {
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.25rem;
+}
+
+/* Consistent heading spacing */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+}
+
+h1 + p, h2 + p, h3 + p {
+    margin-top: -0.5rem;
+}
+
+/* Better image spacing */
+img {
+    margin-bottom: 1rem;
+}
+
+.card-img-top {
+    margin-bottom: 0;
+}
+
+/* Improved footer spacing */
+.footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

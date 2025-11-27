@@ -1,0 +1,50 @@
+/* Dropdown Fix - Menghilangkan tanda panah besar */
+
+/* Fix dropdown item icons */
+.dropdown-item i {
+    width: 16px !important;
+    height: 16px !important;
+    font-size: 14px !important;
+    text-align: center;
+    margin-right: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Fix notification icon specifically */
+.dropdown-item .bi-bell {
+    font-size: 14px !important;
+    width: 16px !important;
+    height: auto !important;
+}
+
+/* Fix person icon */
+.dropdown-item .bi-person {
+    font-size: 14px !important;
+    width: 16px !important;
+    height: auto !important;
+}
+
+/* Ensure all bootstrap icons in dropdown are normal size */
+.dropdown-item [class^="bi-"],
+.dropdown-item [class*=" bi-"] {
+    font-size: 14px !important;
+    width: 16px !important;
+    height: auto !important;
+    line-height: 1;
+}
+
+/* Fix dropdown toggle button icon */
+.dropdown-toggle .bi-person-circle {
+    font-size: 16px !important;
+    margin-right: 0.5rem;
+}
+
+/* Override any large icon styles in dropdown */
+.dropdown-menu .display-4,
+.dropdown-menu .display-3,
+.dropdown-menu .display-2,
+.dropdown-menu .display-1 {
+    font-size: 14px !important;
+}

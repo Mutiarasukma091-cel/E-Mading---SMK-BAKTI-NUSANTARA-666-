@@ -1,0 +1,170 @@
+/* Guest Style - Tampilan Pengunjung */
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    color: white;
+}
+
+.hero-section .display-5 {
+    color: white !important;
+}
+
+.hero-section .btn {
+    border-color: white;
+    color: white;
+}
+
+.hero-section .btn:hover {
+    background: white;
+    color: var(--primary-color);
+}
+
+/* Stats Cards */
+.stats-card {
+    padding: 2rem 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-card i {
+    color: var(--primary-color) !important;
+}
+
+.stats-card .stats-number {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Article Cards */
+.article-card {
+    transition: var(--transition);
+    border: 1px solid var(--border-color);
+}
+
+.article-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-medium);
+}
+
+.article-card .badge {
+    background: var(--primary-color) !important;
+}
+
+.article-card .badge.bg-danger {
+    background: var(--primary-color) !important;
+}
+
+.article-card .badge.bg-info {
+    background: var(--primary-light) !important;
+}
+
+.article-card .badge.bg-secondary {
+    background: var(--accent-color) !important;
+}
+
+/* Card Hover Effect */
+.card-hover {
+    transition: var(--transition);
+}
+
+.card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-medium);
+}
+
+/* Navigation untuk Guest */
+.navbar .nav-link {
+    color: var(--text-dark) !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Search Form */
+.navbar .form-control {
+    border: 1px solid var(--border-color);
+}
+
+.navbar .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(111, 78, 55, 0.25);
+}
+
+.navbar .btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.navbar .btn-outline-primary:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Sidebar */
+.card-header {
+    background: var(--secondary-color);
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-dark);
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-dark);
+}
+
+/* Buttons */
+.btn-outline-secondary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline-secondary:hover {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/* Text Colors */
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.text-success {
+    color: var(--primary-color) !important;
+}
+
+.text-info {
+    color: var(--primary-light) !important;
+}
+
+/* Background Colors */
+.bg-light {
+    background: var(--background-color) !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 3rem 0;
+    }
+    
+    .stats-card {
+        padding: 1.5rem 1rem;
+    }
+    
+    .stats-card .stats-number {
+        font-size: 2rem;
+    }
+}

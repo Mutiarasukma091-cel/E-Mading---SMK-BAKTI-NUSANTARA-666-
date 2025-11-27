@@ -1,0 +1,402 @@
+/* Chocolate Brown Theme for MadingDigitally */
+
+:root {
+  --bs-primary: #8B4513;
+  --bs-success: #A0522D;
+  --bs-info: #CD853F;
+  --bs-warning: #DEB887;
+  --bs-danger: #D2691E;
+  --primary-color: #8B4513;
+  --secondary-color: #A0522D;
+  --accent-color: #CD853F;
+  --background-color: #FDF5E6;
+  --text-color: #3E2723;
+  --light-text: #6D4C41;
+  --border-color: #D7CCC8;
+  --hover-color: #5D4037;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #FDF5E6 0%, #F5E6D3 50%, #EFEBE9 100%);
+  min-height: 100vh;
+  color: var(--text-color);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+.article-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: white !important;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+.btn-primary:hover {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
+}
+
+/* Dashboard stats cards */
+.card .card-body i.display-4 {
+  color: var(--primary-color) !important;
+}
+
+.card .card-body i.display-4.text-info {
+  color: var(--primary-color) !important;
+}
+
+.card .card-body i.display-4.text-success {
+  color: var(--secondary-color) !important;
+}
+
+.card .card-body i.display-4.text-warning {
+  color: var(--accent-color) !important;
+}
+
+.card .card-body i.display-4.text-danger {
+  color: var(--hover-color) !important;
+}
+
+/* Dashboard buttons */
+.btn-info {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-info:hover {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
+}
+
+.btn-outline-info {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-outline-info:hover {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.btn-outline-secondary {
+  color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+  color: white !important;
+}
+
+/* Header styling */
+.header {
+  background: rgba(139, 69, 19, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 4px 20px rgba(139, 69, 19, 0.3);
+}
+
+.sitename {
+  color: var(--primary-color) !important;
+}
+
+/* Navigation */
+.navmenu ul li a {
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.navmenu ul li a:hover,
+.navmenu ul li a.active {
+  color: var(--primary-color);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--hover-color);
+  border-color: var(--hover-color);
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+/* Search form */
+.search-form .form-control {
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.search-form .btn {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+
+/* Social links */
+.social-links a {
+  background-color: var(--primary-color);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: var(--hover-color);
+}
+
+/* Hero section */
+.hero {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 8px 32px rgba(139, 69, 19, 0.3);
+}
+
+.hero h1 {
+  color: var(--primary-color);
+}
+
+.hero p {
+  color: var(--light-text);
+}
+
+/* Homepage title styling */
+.display-5.fw-bold.text-primary {
+  color: var(--primary-color) !important;
+}
+
+/* Cards and articles */
+article {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Article content area - keep white background */
+.article-content {
+  background: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.post-category {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+/* Section titles */
+.section-title h2 {
+  color: var(--text-color);
+}
+
+.description-title {
+  color: var(--primary-color);
+}
+
+/* Footer */
+.footer {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid var(--border-color);
+}
+
+.footer h4 {
+  color: var(--text-color);
+}
+
+.footer a {
+  color: var(--light-text);
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--primary-color);
+}
+
+/* Error page specific */
+.error-404 {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 8px 32px rgba(78, 205, 196, 0.3);
+}
+
+.error-code {
+  color: var(--primary-color);
+  font-size: 8rem;
+  font-weight: 300;
+}
+
+.error-title {
+  color: var(--text-color);
+}
+
+.error-text {
+  color: var(--light-text);
+}
+
+.error-icon i {
+  color: var(--accent-color);
+  font-size: 4rem;
+}
+
+/* Input groups */
+.input-group .form-control {
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color);
+}
+
+.search-btn {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+}
+
+.search-btn:hover {
+  background-color: var(--hover-color);
+  border-color: var(--hover-color);
+}
+
+/* Scroll top button */
+.scroll-top {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.scroll-top:hover {
+  background-color: var(--hover-color);
+}
+
+/* Breadcrumbs */
+.breadcrumb-item a {
+  color: var(--primary-color);
+}
+
+.breadcrumb-item.active {
+  color: var(--light-text);
+}
+
+/* Page title */
+.page-title {
+  background: linear-gradient(135deg, var(--background-color) 0%, #F0EDF0 100%);
+}
+
+/* Mobile nav toggle */
+.mobile-nav-toggle {
+  color: var(--primary-color);
+}
+
+/* Dropdown menus */
+.navmenu .dropdown ul {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 8px 32px rgba(78, 205, 196, 0.2);
+  border-radius: 12px;
+}
+
+.navmenu .dropdown ul li a:hover {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+/* Form controls */
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(184, 169, 201, 0.25);
+}
+
+/* Post meta */
+.post-meta p {
+  color: var(--light-text);
+}
+
+.post-author {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+/* Student Dashboard Header */
+.navbar.bg-success {
+  background: white !important;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar.bg-success .navbar-brand {
+  color: var(--primary-color) !important;
+}
+
+.navbar.bg-success .btn-outline-light {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.navbar.bg-success .btn-outline-light:hover {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: white !important;
+}
